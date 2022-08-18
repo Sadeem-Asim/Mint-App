@@ -1,0 +1,36 @@
+.header {
+  background-color: #2f2fa1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  .header-list {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      color: #f64c71;
+    }
+    .header-anchor {
+      font-size: 15px;
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .header-wallet {
+    color: rgb(7, 0, 0);
+    padding: 5px;
+    background-color: #f64c71;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+}

@@ -1,0 +1,27 @@
+.meta-card {
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .userInfo {
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+
+    p {
+      text-overflow: clip;
+    }
+  }
+
+  .connectButton {
+    background-color: #f64c71;
+    width: 150px;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+  }
+}
